@@ -39,10 +39,15 @@ Now that We have Jenkins service Installed and running Successfully.
 By default , Jenkins runs on the port 8080.
 
 sudo yum install firewalld
+
 sudo systemctl start firewalld
+
 sudo systemctl status firewalld
+
 sudo systemctl enable firewalld
+
 sudo firewall-cmd --permanent --add-port=8080/tcp
+
 sudo firewall-cmd --reload
 
 Setup Jenkins
